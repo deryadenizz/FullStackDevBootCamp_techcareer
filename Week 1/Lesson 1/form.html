@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 50%;
+      }
+      label,
+      input,
+      textarea,
+      button {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      textarea {
+        width: calc(100% - 24px);
+      }
+      table {
+        border-collapse: collapse;
+        width: 50%;
+      }
+      th,
+      td {
+        border: 1px;
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- kullanıcı ile etkileşime geçmek için önemli bir etiket. -->
+    <h2>Form örneği</h2>
+    <form>
+      <label for="isim">Adınız:</label>
+      <input type="text" name="isim" id="isim" />
+
+      <label for="soyad">Soyadınız</label>
+      <input type="text" name="soyad" id="soyad" />
+
+      <label for="mesaj">Mesajınız:</label>
+      <textarea name="mesaj" id="mesaj" cols="30" rows="10">
+uzun bir içerik olacağı için textarea kullandık
+    </textarea
+      >
+
+      <button type="submit">Gönder</button>
+    </form>
+  </body>
+</html>
