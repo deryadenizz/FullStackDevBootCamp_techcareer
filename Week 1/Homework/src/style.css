@@ -42,9 +42,11 @@ body {
 section {
   padding: 30px;
 }
+.grid-2-col img {
+  border-radius: 50%;
+}
 .img-responsive {
   width: 75%;
-  border-radius: 50%;
 }
 .grid {
   display: grid;
