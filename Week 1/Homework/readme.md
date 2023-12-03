@@ -33,7 +33,7 @@ Explore the entire collection on my [Derya Deniz Art Portfolio](https://deryaden
 
 If you want to experience this project locally:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+1. Clone the repository: `git clone https://github.com/deryadenizz/FullStackDevBootCamp_techcareer/edit/main/Week%201/Homework`
 2. Navigate to the project folder: `cd your-repo`
 3. Open the `index.html` file in your favorite web browser.
 
