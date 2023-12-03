@@ -1,0 +1,23 @@
+h1 {
+  color: blueviolet;
+}
+#logo {
+  color: black;
+  background-color: aquamarine;
+}
+ul li a {
+  text-decoration: none;
+}
+/* ul içindeki linkleri etkiledi sadece */
+.info span {
+  color: brown;
+}
+.parCl span {
+  text-decoration: line-through;
+}
+* {
+  font-weight: bold;
+  color: bisque;
+}
+/* sitedeki her şeyi seçer. Özel olarak atanmış özellikler haricinde her şeyi etkiler */
+/* hiyerarşi yukardan aşağıya doğlu ilerler. Aynı etikete farklı özellikler atadığınızda en alttaki geçerli olur */
