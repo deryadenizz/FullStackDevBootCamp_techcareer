@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padding</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 100px;
+        background-color: bisque;
+        margin-bottom: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        /* border box içerikten başlayarak hesaplar */
+      }
+      .box2 {
+        width: 200px;
+        height: 100px;
+        background-color: bisque;
+        margin-bottom: 20px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        box-sizing: content-box;
+        /* content-box içeriğe göre hesaplar */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      BOX1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+      nihil quis quam, incidunt tenetur, quae pariatur eligendi necessitatibus
+      ratione voluptatibus debitis delectus sit natus velit mollitia quia id
+      nemo eius?
+    </div>
+    <div class="box2">
+      BOX2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae non
+      et atque veritatis doloremque nulla expedita deserunt ipsa itaque, quas
+      commodi repudiandae eveniet dolorem aspernatur, illo nesciunt veniam ut
+      placeat.
+    </div>
+  </body>
+</html>
