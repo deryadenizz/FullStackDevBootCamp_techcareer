@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #f2b6b6;
+  --secondary-color: #bf7e7e;
+  --third-color: #f2eee9;
+  --forth-color: #a9d9d0;
+  --fifth-color: #648c85;
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(../img/sakura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  color: var(--third-color);
+  font-family: "IM Fell DW Pica SC", serif;
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.header p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  font-size: 48px;
+}
+body {
+  background: var(--third-color);
+}
+section {
+  padding: 30px;
+}
+.img-responsive {
+  width: 75%;
+  border-radius: 50%;
+}
+.grid {
+  display: grid;
+  grid-gap: 20px;
+}
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+.grid-3col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+main {
+  background-color: white;
+}
+main h2 {
+  color: var(--primary-color);
+  font-family: "IM Fell DW Pica SC", serif;
+  font-size: 30px;
+}
+main h3 {
+  color: var(--secondary-color);
+  font-family: "IM Fell DW Pica SC", serif;
+  margin: 0;
+}
+main h4 {
+  color: var(--secondary-color);
+  font-family: "IM Fell DW Pica SC", serif;
+  font-size: 24px;
+  margin: 5px;
+  text-align: center;
+}
+main h5 {
+  font-family: "IM Fell DW Pica SC", serif;
+  color: var(--primary-color);
+  margin: 0;
+  text-align: center;
+}
+main p {
+  font-family: "Poppins", sans-serif;
+  color: var(--fifth-color);
+  margin-bottom: 8px;
+  text-align: justify;
+}
