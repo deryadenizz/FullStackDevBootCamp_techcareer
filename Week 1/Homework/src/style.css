@@ -91,3 +91,51 @@ main p {
   margin-bottom: 8px;
   text-align: justify;
 }
+section.secondary {
+  background: var(--third-color);
+  text-align: center;
+}
+.card-1 {
+  background-color: white;
+  padding: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.card-1.sold {
+  transition: background-color 0.3s ease-in-out;
+}
+.card-1.sold:hover {
+  opacity: 0.4;
+}
+.card-1.sold .sold-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--secondary-color);
+  opacity: 1;
+}
+
+.card-1.sold:hover .sold-text {
+  display: block;
+  opacity: 1;
+  color: var(--secondary-color) !important;
+}
+@media (max-width: 570px) {
+  .header p {
+    display: none;
+  }
+  .header {
+    padding: 30px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
