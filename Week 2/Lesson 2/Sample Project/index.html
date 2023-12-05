@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Arşivi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Sinema Filmleri</h1>
+    <div class="film-listesi" id="filmListesi"></div>
+    <div class="film-detayi" id="filmDetayi"></div>
+    <button onclick="filmEkleFormuGöster()">Yeni Film Ekle</button>
+    <div class="film-ekle-form" id="filmEkleForm">
+      <!-- Update placeholders for clarity -->
+      <input type="text" id="yonetmenAd" placeholder="Yönetmen Adı" />
+      <input type="text" id="filmAciklamasi" placeholder="Film Açıklaması" />
+      <input type="text" id="filmImg" placeholder="Film Resim URL" />
+
+      <input type="text" id="filmImg" />
+      <button onclick="filmEkleForm()">Film Ekle</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
